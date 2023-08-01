@@ -37,13 +37,13 @@
     <label for="name">Nome</label><br>
     <input type="text" id="name" name="name"><br><br>
     <label for="assunto">Assunto</label><br>
-    <input list="assunto" placeholder="Selecione o assunto">
-    <datalist id="assunto">
-      <option value="Sugestão">
-      <option value="Reclamação">
-      <option value="Orçamento">
-      <option value="Outros">
-    </datalist>
+    <select id="Assunto" name="assunto">
+      <option value="selecione">Selecione o assunto</option>
+      <option value="Sugestão">Sugestão</option>
+      <option value="Reclamação">Reclamação</option>
+      <option value="Orçamento">Orçamento</option>
+      <option value="Outros">Outros</option>
+    </select>
     <br><br>
     <label for="mensagem" id="mensagem">Mensagem</label><br>
     <textarea id="textarea" name="textarea" rows="5" cols="30">
